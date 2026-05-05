@@ -1,13 +1,114 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over-Current Relay Simulation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-		<!-- Your code goes here-->
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-title">
+                <span class="icon">⚡</span> Simulation of Experiment - 7
+            </div>
+            <p class="header-subtitle">Interactive simulation of an over-current relay with adjustable Plug Setting Multiplier (PSM) and Time Multiplier Setting (TMS).</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="simulation-layout">
+                <!-- Left Panel: Settings & Visualizer -->
+                <div class="panel card left-panel">
+                    <h3 class="panel-title">Relay Settings</h3>
+                    
+                    <div class="setting-group">
+                        <label class="setting-label">Plug (Current) Setting</label>
+                        <div class="radio-group" id="psmGroup">
+                            <label><input type="radio" name="psm" value="2.50" checked> 2.50</label>
+                            <label><input type="radio" name="psm" value="3.75"> 3.75</label>
+                            <label><input type="radio" name="psm" value="5.00"> 5.00</label>
+                            <label><input type="radio" name="psm" value="6.25"> 6.25</label>
+                            <label><input type="radio" name="psm" value="7.50"> 7.50</label>
+                            <label><input type="radio" name="psm" value="8.75"> 8.75</label>
+                            <label><input type="radio" name="psm" value="10.0"> 10.0</label>
+                        </div>
+                    </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+                    <div class="visualizer">
+                        <div class="disc-container">
+                            <div class="disc" id="relayDisc">
+                                <div class="needle"></div>
+                                <div class="disc-center"></div>
+                                <div class="moving-contact"></div>
+                            </div>
+                            <div class="fixed-contact"></div>
+                        </div>
+                        <div class="indicator" id="tripIndicator"></div>
+                        <div class="indicator-label">Indicator</div>
+                    </div>
+
+                    <div class="setting-group">
+                        <label class="setting-label">Time Setting</label>
+                        <div class="tms-controls">
+                            <button class="tms-btn" id="decTms">-</button>
+                            <div class="tms-value" id="tmsValue">1.0</div>
+                            <button class="tms-btn" id="incTms">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Panel: Controls & Display -->
+                <div class="panel card right-panel">
+                    <h3 class="panel-title">Instrumentation</h3>
+
+                    <div class="display-group">
+                        <label class="display-label">Relay Current</label>
+                        <div class="digital-display" id="relayCurrentDisplay">0.00 Amp</div>
+                    </div>
+
+                    <div class="display-group">
+                        <label class="display-label">Stop Clock</label>
+                        <div class="digital-display" id="stopClockDisplay">0.000 s</div>
+                    </div>
+
+                    <div class="control-actions">
+                        <button class="action-btn" id="incCurrentBtn">Increase Current</button>
+                        <button class="action-btn" id="decCurrentBtn">Decrease Current</button>
+                        <button class="action-btn reset-btn" id="resetBtn">Reset Settings</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-section card">
+                <h3 class="panel-title">Videos of the Experiment - 7</h3>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <!-- Placeholder for Video 1 -->
+                            <video controls poster="https://via.placeholder.com/640x360.png?text=Video+1+Preview">
+                                <source src="#" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-title">Video 1: Relay Operation Demonstration</div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <!-- Placeholder for Video 2 -->
+                            <video controls poster="https://via.placeholder.com/640x360.png?text=Video+2+Preview">
+                                <source src="#" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-title">Video 2: Detailed Circuit Setup</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/sim.js"></script>
 </body>
 </html>
