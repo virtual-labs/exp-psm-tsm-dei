@@ -1,7 +1,6 @@
 {
   "version": 2.0,
-  "quiz_title": "QUIZ - Relays & Protection",
-  "questions": [
+ "questions": [
     {
       "num": 6,
       "question": "The pick up value of relay is 7.5 A and fault current in relay coil is 30 A. Its plug setting multiplier is-",
