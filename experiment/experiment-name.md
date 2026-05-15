@@ -1,1 +1,1 @@
-## To Study the over-current relay and the effect of PSM and TSM.
+## Study of Over-Current Relay and Effect of PSM and TSM
