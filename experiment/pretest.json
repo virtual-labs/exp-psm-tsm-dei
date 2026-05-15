@@ -2,8 +2,8 @@
   "version": 2.0,
   "questions": [
     {
-      "num": 1,
-      "question": "The standard voltage ratings of an electromagnetic relay are-",
+    
+      "question": "1. The standard voltage ratings of an electromagnetic relay are-",
       "answers": {
         "a": "110 V, 63.5 V (L-N)",
         "b": "220 V, 110 V",
@@ -20,8 +20,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 2,
-      "question": "The main function of relay is-",
+     
+      "question": "2. The main function of relay is-",
       "answers": {
         "a": "Fault isolation",
         "b": "Fault detection",
@@ -38,8 +38,8 @@
       "difficulty": "beginner"
     },
     {
-      "num": 3,
-      "question": "The relay operating coil is energized by-",
+      
+      "question": "3. The relay operating coil is energized by-",
       "answers": {
         "a": "Steam engine",
         "b": "Power transformer",
@@ -56,8 +56,8 @@
       "difficulty": "beginner"
     },
     {
-      "num": 4,
-      "question": "Which one is correct-",
+      
+      "question": "4. Which one is correct-",
       "answers": {
         "a": "1 VA relay is more sensitive than 5 VA relay",
         "b": "1 VA relay is less sensitive than 5 VA relay",
@@ -74,8 +74,8 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 5,
-      "question": "An over current relay having a current setting of 125% is connected to CT of 400/5. The pick up value is-",
+     
+      "question": "5. An over current relay having a current setting of 125% is connected to CT of 400/5. The pick up value is-",
       "answers": {
         "a": "6.25 A",
         "b": "10 A",
