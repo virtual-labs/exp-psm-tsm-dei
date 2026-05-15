@@ -1,4 +1,4 @@
-# Experiment 7: Theory and Procedure
+
 
 ## Theory
 
