@@ -2,7 +2,6 @@
   "version": 2.0,
   "questions": [
     {
-    
       "question": "1. The standard voltage ratings of an electromagnetic relay are-",
       "answers": {
         "a": "110 V, 63.5 V (L-N)",
@@ -16,11 +15,9 @@
         "c": "Incorrect.",
         "d": "Correct. Modern standard voltage ratings for electromagnetic relays are 400 V (line-to-line) and 231 V (line-to-neutral)."
       },
-      "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "correctAnswer": "d"
     },
     {
-     
       "question": "2. The main function of relay is-",
       "answers": {
         "a": "Fault isolation",
@@ -34,11 +31,9 @@
         "c": "Partial. Protection encompasses detection and isolation initiation.",
         "d": "Correct. Relay detects faults, initiates protection, and helps isolate faulty section via circuit breaker."
       },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
+      "correctAnswer": "d"
     },
     {
-      
       "question": "3. The relay operating coil is energized by-",
       "answers": {
         "a": "Steam engine",
@@ -52,11 +47,9 @@
         "c": "Correct. Relay operating coils are energized by current transformers (CT) and potential transformers (PT) - both instrument transformers.",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
-      
       "question": "4. Which one is correct-",
       "answers": {
         "a": "1 VA relay is more sensitive than 5 VA relay",
@@ -70,11 +63,9 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-     
       "question": "5. An over current relay having a current setting of 125% is connected to CT of 400/5. The pick up value is-",
       "answers": {
         "a": "6.25 A",
@@ -88,8 +79,7 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     }
   ]
 }
