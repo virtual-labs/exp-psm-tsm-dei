@@ -9,7 +9,7 @@
 7. When the relay coil trips, the disc returns to the normal (original) position. Note down the relay current from the Relay-current meter and trip time from the stop clock.
 8. Repeat the above procedure from step 5 for various fault currents.
 
-# Observations 
+## Observation
 
 | S.No. | Plug Setting Multiplier | Fault Current Setting | Relay Fault Current | Measured Relay Tripping Time | Theoretical Relay Time |
 |:---:|:---:|:---:|:---:|:---:|:---:|
