@@ -157,4 +157,3 @@ function simulationLoop(timestamp) {
 
 // Initial update
 updateDisplay();
-
