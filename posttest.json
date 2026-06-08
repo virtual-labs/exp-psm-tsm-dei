@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The pick up value of relay is 7.5 A and fault current in relay coil is 30 A. Its plug setting multiplier is-",
+      "answers": {
+        "a": "2 A",
+        "b": "4 A",
+        "c": "6 A",
+        "d": "8 A"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Correct. Plug Setting Multiplier (PSM) = Fault current / Pickup current = 30 / 7.5 = 4.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "2. Induction relays are used with-",
+      "answers": {
+        "a": "AC",
+        "b": "DC",
+        "c": "Both AC and DC",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct. Induction relays operate on the principle of induction motor (eddy currents in disc), so they require AC supply.",
+        "b": "Incorrect. Induction principle does not work with DC.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "3. In merz-price protection, the CT secondary of delta - star transformer is connected in-",
+      "answers": {
+        "a": "Star-delta",
+        "b": "Delta-delta",
+        "c": "Star-star",
+        "d": "Delta-star"
+      },
+      "explanations": {
+        "a": "Correct. For a delta-star power transformer, CTs on delta side are connected in star, and CTs on star side are connected in delta to compensate for 30° phase shift.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "4. The number of pilot wires required for protecting 3-phase transmission line using transley system of protection is-",
+      "answers": {
+        "a": "6",
+        "b": "4",
+        "c": "3",
+        "d": "2"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Incorrect.",
+        "d": "Correct. Translay (TranSLAY) scheme uses 2 pilot wires for differential protection of 3-phase lines."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "5. The least expensive overcurrent protection for LV system is-",
+      "answers": {
+        "a": "Isolation",
+        "b": "Fuse",
+        "c": "Oil CB",
+        "d": "Air CB"
+      },
+      "explanations": {
+        "a": "Incorrect. Isolators are not overcurrent protection devices.",
+        "b": "Correct. Fuse is the least expensive overcurrent protection device for low voltage systems.",
+        "c": "Incorrect. Oil circuit breakers are more expensive.",
+        "d": "Incorrect. Air circuit breakers are more expensive than fuses."
+      },
+      "correctAnswer": "b"
+    }
+  ]
+}
